@@ -18,11 +18,11 @@
       <p class="">&copy; 2021. All rights reserved.</p>
     </footer>
 
-    <section class="col-start-1 col-end-12 flex justify-between">
+    <section class="col-start-1 col-end-11 flex justify-between">
       <h3 class="text-3xl w-2/6">
         A Front-End Web Developer operating from my base in Accra, Ghana.
       </h3>
-      <div class="w-1/2 text-sm">
+      <div class="w-1/2 text-sm pr-20">
         <p>
           I love to translate designs into clean, elegant, functional and
           responsive User Interfaces.
@@ -36,17 +36,26 @@
       </div>
     </section>
 
-    <section class="col-start-1 col-end-12 grid grid-cols-12 gap-4 mt-16">
+    <section
+      class="
+        col-start-1 col-end-12
+        grid grid-cols-12
+        gap-4
+        mt-16
+        grid-rows-6
+        h-96
+      "
+    >
       <img
-        class="col-start-2 col-end-10"
+        class="col-start-2 col-end-11"
         src="~/assets/img/hero-img.png"
         alt="Francis Badasu"
       />
-      <div class="col-start-10 col-end-13 mt-20 text-sm">
+      <div class="col-start-11 col-end-13 mt-20 text-sm">
         <p class="mb-5">Available for new projects.</p>
-        <nuxt-link to="#">Get in touch</nuxt-link>
+        <nuxt-link class="btn-bg font-semibold" to="#">Get in touch</nuxt-link>
       </div>
-      <div class="col-start-12 col-end-12">
+      <div class="col-start-13 col-end-13 row-start-6">
         <ScrollDownSvg />
       </div>
     </section>
