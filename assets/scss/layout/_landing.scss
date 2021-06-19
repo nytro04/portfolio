@@ -1,0 +1,15 @@
+.landing {
+  display: grid;
+
+  /* you can use 12 instead 6 cols, for easy manipulations, that's why bootstrap 12cols */
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 4rem;
+  /* use this if need be to specify each row  */
+  /* 70px 55px 55px minmax(80px, auto) 80px 55px 80px 80px 70px; */
+
+  grid-template-areas: 'name name name name name name';
+
+  #name {
+    grid-area: name;
+  }
+}
