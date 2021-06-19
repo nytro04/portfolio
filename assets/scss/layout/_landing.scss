@@ -13,3 +13,80 @@
 //     grid-area: name;
 //   }
 // }
+
+
+.sooocu {
+  display: grid;
+  /* you can use 12 instead 6 cols, for easy manipulations, that's why bootstrap 12cols */
+  grid-template-columns: repeat(6, 1fr);
+  /* to use grid area, each box needs a grid area name  */
+
+  /* add . to add blank spaces to grid area  */
+  grid-template-areas:
+    "head head head head head head"
+    "asi1 navi navi navi navi navi"
+    "asi1 sec1 sec1 . asi2 asi2"
+    "asi1 art1 art1 art1 asi2 asi2"
+    "asi1 art2 art2 art2 asi2 asi2"
+    "asi1 sec2 sec2 . asi2 asi2"
+    "asi1 art3 art3 art3 asi2 asi2"
+    "asi1 art4 art4 art4 asi2 asi2"
+    "foot foot foot foot foot foot";
+
+  /* add rows to all rows  */
+  /* grid-auto-rows: 60px; */
+
+  /* explicitly adds height of each row  */
+  /* grid-template-rows:
+  70px 55px 55px 80px 80px 55px 80px 80px 70px; */
+  grid-template-rows:
+    70px 55px 55px minmax(80px, auto) 80px 55px 80px 80px 70px;
+
+  gap: 7px;
+  margin: 15px;
+}
+
+
+#head {
+  grid-area: head;
+}
+
+#navi {
+  grid-area: navi;
+}
+
+#asi1 {
+  grid-area: asi1;
+}
+
+#asi2 {
+  grid-area: asi2;
+}
+
+#sec1 {
+  grid-area: sec1;
+}
+
+#sec2 {
+  grid-area: sec2;
+}
+
+#art1 {
+  grid-area: art1;
+}
+
+#art2 {
+  grid-area: art2;
+}
+
+#art3 {
+  grid-area: art3;
+}
+
+#art4 {
+  grid-area: art4;
+}
+
+#foot {
+  grid-area: foot;
+}

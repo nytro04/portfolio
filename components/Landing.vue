@@ -1,11 +1,11 @@
 <template>
-  <div class="landing">
-    <header>
-      <h1 class="name heading heading__primary">FRANCIS BADASU.</h1>
+  <div class="landing grid grid-cols-12 gap-4">
+    <header class="col-start-1 col-end-12">
+      <h1 class="font-bold text-8xl tracking-widest">FRANCIS BADASU.</h1>
     </header>
 
-    <footer id="foot">
-      <p>
+    <footer class="col-start-3 col-end-10 flex justify-between my-10">
+      <p class="">
         <a
           class=""
           href="https://github.com/nytro04"
@@ -15,18 +15,20 @@
           https://github.com/nytro04
         </a>
       </p>
-      <p>&copy; 2021. All rights reserved.</p>
+      <p class="">&copy; 2021. All rights reserved.</p>
     </footer>
 
-    <section id="about">
-      <h3>A Front-End Web Developer operating from my base in Accra, Ghana.</h3>
-      <div>
+    <section class="col-start-1 col-end-12 flex justify-between">
+      <h3 class="text-3xl w-2/6">
+        A Front-End Web Developer operating from my base in Accra, Ghana.
+      </h3>
+      <div class="w-1/2 text-sm">
         <p>
           I love to translate designs into clean, elegant, functional and
           responsive User Interfaces.
         </p>
 
-        <p>
+        <p class="mt-6">
           I have industry experience building websites and web applications
           using HTML, CSS, SCSS, JavaScript, Vue/Vuex, NuxtJs React/Redux,
           NodeJs and Go and quite recently TypeScript.
@@ -34,44 +36,63 @@
       </div>
     </section>
 
-    <section id="img">
-      <img src="~/assets/img/hero-img.png" alt="Francis Badasu" />
-      <div class="">
-        <p>Available for new projects.</p>
+    <section class="col-start-1 col-end-12 grid grid-cols-12 gap-4 mt-16">
+      <img
+        class="col-start-2 col-end-10"
+        src="~/assets/img/hero-img.png"
+        alt="Francis Badasu"
+      />
+      <div class="col-start-10 col-end-13 mt-20 text-sm">
+        <p class="mb-5">Available for new projects.</p>
         <nuxt-link to="#">Get in touch</nuxt-link>
+      </div>
+      <div class="col-start-12 col-end-12">
+        <ScrollDownSvg />
       </div>
     </section>
   </div>
 </template>
 
 <script>
-import CloseSvg from '~/assets/svgs/x.svg?inline'
-export default {}
+import ScrollDownSvg from '~/assets/svgs/scroll-down.svg?inline'
+export default {
+  name: 'LandingPage',
+  components: {
+    ScrollDownSvg,
+  },
+}
 </script>
 
 <style lang="scss" scoped>
 .landing {
-  display: grid;
+  /* display: grid;
+  gap: 1rem;
 
-  /* you can use 12 instead 6 cols, for easy manipulations, that's why bootstrap 12cols */
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 4rem;
-  /* use this if need be to specify each row  */
-  /* 70px 55px 55px minmax(80px, auto) 80px 55px 80px 80px 70px; */
+  grid-template-rows: 8rem 2rem 11rem auto;
 
   grid-template-areas:
-    'name name name name name name'
-    '. foot foot foot foot .'
-    'about about . about about .'
-    'about about . about about .'
-    '. img img img img img';
+    'head head head head head head '
+    '. foot . foot foot foot'
+    'about about about about about about'
+    'about about about about about about'
+    'img img img img img img';
 
   #name {
-    grid-area: name;
+    grid-area: head;
   }
 
   #foot {
     grid-area: foot;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 3rem;
+
+    &p:first-child {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
   }
 
   #about {
@@ -80,6 +101,6 @@ export default {}
 
   #img {
     grid-area: img;
-  }
+  } */
 }
 </style>
