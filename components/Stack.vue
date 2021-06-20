@@ -1,40 +1,28 @@
 <template>
   <div class="stacks">
-    <div class="flex">
-      <!-- <div class="flex justify-around space-x-20 flex-nowrap scroller w-1/2"> -->
-      <!-- scroller -->
-      <!-- <div class=""></div> -->
-      <HTMLSvg class="h-24 w-24" />
-      <CSSSvg class="h-24 w-24" />
-      <SASSSvg class="h-24 w-24" />
-      <JSSvg class="h-24 w-24" />
-      <VueSvg class="h-24 w-24" />
-      <NuxtSvg class="h-24 w-24" />
-      <ReactSvg class="h-24 w-24" />
-      <TailwindSvg class="h-24 w-24" />
-      <BootstrapSvg class="h-24 w-24" />
-      <NodeSvg class="h-24 w-24" />
-      <GoSvg class="h-24 w-24" />
-      <TypeScriptSvg class="h-24 w-24" />
-      <GitSvg class="h-24 w-24" />
-      <!-- </div> -->
-      <!-- <div
-        class="ml-8 flex justify-around space-x-20 flex-nowrap scroller w-1/2"
-      >
-        <HTMLSvg class="h-24 w-24" />
-        <CSSSvg class="h-24 w-24" />
-        <SASSSvg class="h-24 w-24" />
-        <JSSvg class="h-24 w-24" />
-        <VueSvg class="h-24 w-24" />
-        <NuxtSvg class="h-24 w-24" />
-        <ReactSvg class="h-24 w-24" />
-        <TailwindSvg class="h-24 w-24" />
-        <BootstrapSvg class="h-24 w-24" />
-        <NodeSvg class="h-24 w-24" />
-        <GoSvg class="h-24 w-24" />
-        <TypeScriptSvg class="h-24 w-24" />
-        <GitSvg class="h-24 w-24" />
-      </div> -->
+    <div class="marquee">
+      <ul class="marquee-content">
+        <li><HTMLSvg class="h-24 w-24" /></li>
+        <li><CSSSvg class="h-24 w-24" /></li>
+        <li><SASSSvg class="h-24 w-24" /></li>
+        <li><JSSvg class="h-24 w-24" /></li>
+        <li><VueSvg class="h-24 w-24" /></li>
+        <li><NuxtSvg class="h-24 w-24" /></li>
+        <li><ReactSvg class="h-24 w-24" /></li>
+        <li><TailwindSvg class="h-24 w-24" /></li>
+        <li><BootstrapSvg class="h-24 w-24" /></li>
+        <li><NodeSvg class="h-24 w-24" /></li>
+        <li><GoSvg class="h-24 w-24" /></li>
+        <li><TypeScriptSvg class="h-24 w-24" /></li>
+        <li><GitSvg class="h-24 w-24" /></li>
+
+        <li><HTMLSvg class="h-24 w-24" /></li>
+        <li><CSSSvg class="h-24 w-24" /></li>
+        <li><SASSSvg class="h-24 w-24" /></li>
+        <li><JSSvg class="h-24 w-24" /></li>
+        <li><VueSvg class="h-24 w-24" /></li>
+        <li><NuxtSvg class="h-24 w-24" /></li>
+      </ul>
     </div>
   </div>
 </template>

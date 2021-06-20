@@ -2,54 +2,88 @@
 *::after,
 *::before {
   margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-   // This defines what 1rem is
+  // This defines what 1rem is
   //  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
   font-size: 16px;
 }
 
 body {
   box-sizing: border-box;
-  background-color: #505E4D;
+  background-color: #505e4d;
   color: white;
 }
 
 ::selection {
   background-color: white;
-  color: black;
+  color: #505e4d;
 }
 
-
-
-.slider {
-
-   position: relative;
-   transition: all .3s;
-   overflow: hidden;
-
-
-
-   &::before {
-     content: '';
-     position: absolute;
-     background-color: white;
-    //  border-bottom: 2px solid white;
-
-     bottom: 0;
-     left: 0;
-     height: 2%;
-     width: 100%;
-     transform: translateX(-100%);
-     transition: all .3s;
-
-
-   }
-
-   &:hover::before {
-     transform: translateX(0);
-   }
+$marquee-count: 13;
+.marquee {
+  width: 80vw;
+  height: 20vh;
+  overflow: hidden;
+  position: relative;
 }
+
+.marquee::before,
+.marquee::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  // width: 10rem;
+  height: 100%;
+  z-index: 1;
+}
+
+.marquee::before {
+  left: 0;
+  background-image: linear-gradient(to right, #505e4d, transparent 100%);
+}
+.marquee::after {
+  right: 0;
+  background-image: linear-gradient(to right, #505e4d, transparent 100%);
+}
+
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling 10s linear infinite;
+}
+//
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-1 * 20vw * 13);
+  }
+}
+
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+// for responsiveness
+// @media (max-width: 600px) {
+//   html { font-size: 12px; }
+//   :root {
+//     --marquee-width: 100vw;
+//     --marquee-height: 16vh;
+//     --marquee-elements-displayed: 3;
+//   }
+//   .marquee:before, .marquee:after { width: 5rem; }
+// }
