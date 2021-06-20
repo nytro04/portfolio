@@ -1,6 +1,9 @@
 <template>
   <div class="">
     <Landing />
+    <div class="mt-20">
+      <Stack />
+    </div>
   </div>
 </template>
 
@@ -8,6 +11,7 @@
 export default {
   components: {
     Landing: () => import('~/components/Landing.vue'),
+    Stack: () => import('~/components/Stack.vue'),
   },
 }
 </script>

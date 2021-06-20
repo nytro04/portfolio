@@ -36,16 +36,7 @@
       </div>
     </section>
 
-    <section
-      class="
-        col-start-1 col-end-12
-        grid grid-cols-12
-        gap-4
-        mt-16
-        grid-rows-6
-        h-96
-      "
-    >
+    <section class="col-start-1 col-end-12 grid grid-cols-12 gap-4 mt-16">
       <img
         class="col-start-2 col-end-11"
         src="~/assets/img/hero-img.png"
@@ -54,9 +45,8 @@
       <div class="col-start-11 col-end-13 mt-20 text-sm">
         <p class="mb-5">Available for new projects.</p>
         <nuxt-link class="btn-bg font-semibold" to="#">Get in touch</nuxt-link>
-      </div>
-      <div class="col-start-13 col-end-13 row-start-6">
-        <ScrollDownSvg />
+
+        <ScrollDownSvg class="mt-32 ml-32" />
       </div>
     </section>
   </div>
