@@ -23,7 +23,7 @@ body {
   color: #505e4d;
 }
 
-$marquee-count: 13;
+// $marquee-count: 13;
 .marquee {
   width: 80vw;
   height: 20vh;
@@ -54,9 +54,12 @@ $marquee-count: 13;
   list-style: none;
   height: 100%;
   display: flex;
-  animation: scrolling 10s linear infinite;
+  animation: scrolling 20s linear infinite;
 }
-//
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
 
 @keyframes scrolling {
   0% {

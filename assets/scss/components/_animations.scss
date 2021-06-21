@@ -1,0 +1,26 @@
+.move-r {
+  position: relative;
+  cursor: pointer;
+  padding: 1rem 1rem 1rem 0rem;
+  transition: all 0.5s;
+  width: auto;
+
+  &::after {
+    content: url('~/assets/svgs/chevron-right.svg');
+    position: absolute;
+    right: 85%;
+    top: 25%;
+    left: 5%;
+    bottom: 0;
+    opacity: 0;
+  }
+
+  &:hover {
+    transition: all 0.5s;
+    padding: 1rem 1rem 1rem 2rem;
+    &::after {
+      opacity: 1;
+      transition: all 0.5s;
+    }
+  }
+}
