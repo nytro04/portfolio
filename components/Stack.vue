@@ -2,26 +2,26 @@
   <div class="stacks">
     <div class="marquee">
       <ul class="marquee-content">
-        <li><HTMLSvg class="h-24 w-24" /></li>
-        <li><CSSSvg class="h-24 w-24" /></li>
-        <li><SASSSvg class="h-24 w-24" /></li>
-        <li><JSSvg class="h-24 w-24" /></li>
-        <li><VueSvg class="h-24 w-24" /></li>
-        <li><NuxtSvg class="h-24 w-24" /></li>
-        <li><ReactSvg class="h-24 w-24" /></li>
-        <li><TailwindSvg class="h-24 w-24" /></li>
-        <li><BootstrapSvg class="h-24 w-24" /></li>
-        <li><NodeSvg class="h-24 w-24" /></li>
-        <li><GoSvg class="h-24 w-24" /></li>
-        <li><TypeScriptSvg class="h-24 w-24" /></li>
-        <li><GitSvg class="h-24 w-24" /></li>
+        <li><HTMLSvg class="h-20 w-20" /></li>
+        <li><CSSSvg class="h-20 w-20" /></li>
+        <li><SASSSvg class="h-20 w-20" /></li>
+        <li><JSSvg class="h-20 w-20" /></li>
+        <li><VueSvg class="h-20 w-20" /></li>
+        <li><NuxtSvg class="h-20 w-20" /></li>
+        <li><ReactSvg class="h-20 w-20" /></li>
+        <li><TailwindSvg class="h-20 w-20" /></li>
+        <li><BootstrapSvg class="h-20 w-20" /></li>
+        <li><NodeSvg class="h-20 w-20" /></li>
+        <li><GoSvg class="h-20 w-20" /></li>
+        <li><TypeScriptSvg class="h-20 w-20" /></li>
+        <li><GitSvg class="h-20 w-20" /></li>
 
-        <li><HTMLSvg class="h-24 w-24" /></li>
-        <li><CSSSvg class="h-24 w-24" /></li>
-        <li><SASSSvg class="h-24 w-24" /></li>
-        <li><JSSvg class="h-24 w-24" /></li>
-        <li><VueSvg class="h-24 w-24" /></li>
-        <li><NuxtSvg class="h-24 w-24" /></li>
+        <li><HTMLSvg class="h-20 w-20" /></li>
+        <li><CSSSvg class="h-20 w-20" /></li>
+        <li><SASSSvg class="h-20 w-20" /></li>
+        <li><JSSvg class="h-20 w-20" /></li>
+        <li><VueSvg class="h-20 w-20" /></li>
+        <li><NuxtSvg class="h-20 w-20" /></li>
       </ul>
     </div>
   </div>
