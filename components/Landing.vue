@@ -1,13 +1,32 @@
 <template>
-  <div class="grid grid-cols-12 gap-4 landing">
-    <header class="col-start-1 col-end-12">
+  <div class="relative grid grid-cols-12 gap-4 landing">
+    <vue-particles
+      id="particles-js"
+      color="#dedede"
+      :particle-opacity="0.5"
+      :particles-number="80"
+      shape-type="circle"
+      :particle-size="4"
+      lines-color="#fff"
+      :lines-width="1"
+      :line-linked="true"
+      :line-opacity="0.4"
+      :lines-distance="150"
+      :move-speed="6"
+      :hover-effect="true"
+      hover-mode="repulse"
+      :click-effect="true"
+      click-mode="push"
+    >
+    </vue-particles>
+    <header class="col-start-1 col-end-12 mt-5">
       <h1 class="font-bold tracking-widest text-8xl">FRANCIS BADASU.</h1>
     </header>
 
     <footer class="flex justify-between col-start-3 col-end-10 my-10">
       <p class="">
         <a
-          class=""
+          class="move-r"
           href="https://github.com/nytro04"
           target="_blank"
           rel="noopener noreferrer"
@@ -63,43 +82,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#particles-js {
+  width: 100%;
+  /* height: calc(100% - 100px); */
+  height: 150vh;
+  position: absolute;
+}
+
 .landing {
-  /* display: grid;
-  gap: 1rem;
-
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 8rem 2rem 11rem auto;
-
-  grid-template-areas:
-    'head head head head head head '
-    '. foot . foot foot foot'
-    'about about about about about about'
-    'about about about about about about'
-    'img img img img img img';
-
-  #name {
-    grid-area: head;
-  }
-
-  #foot {
-    grid-area: foot;
-
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 3rem;
-
-    &p:first-child {
-      grid-column-start: 2;
-      grid-column-end: 4;
-    }
-  }
-
-  #about {
-    grid-area: about;
-  }
-
-  #img {
-    grid-area: img;
-  } */
 }
 </style>
