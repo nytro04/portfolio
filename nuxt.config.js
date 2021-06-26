@@ -8,6 +8,13 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+
+    script: [
+      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js' },
+      // {
+      //   src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js',
+      // },
+    ],
   },
 
   /*
@@ -30,6 +37,18 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+
+    [
+      'nuxt-gsap-module',
+      {
+        gsap: {
+          extraPlugins: {
+            scrollTo: true,
+            scrollTrigger: true,
+          },
+        },
+      },
+    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -8,6 +8,10 @@
     <div class="mt-32">
       <RecentProjects />
     </div>
+
+    <!-- <div class="relative mt-32">
+      <Together />
+    </div> -->
   </div>
 </template>
 
@@ -17,6 +21,12 @@ export default {
     Landing: () => import('~/components/Landing.vue'),
     Stack: () => import('~/components/Stack.vue'),
     RecentProjects: () => import('~/components/RecentProjects.vue'),
+    // Together: () => import('~/components/Together.vue'),
+  },
+  head() {
+    return {
+      title: 'Francis Badasu | Portfolio Index',
+    }
   },
 }
 </script>
