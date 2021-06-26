@@ -1,27 +1,85 @@
 <template>
   <div class="stacks">
+    <h2 class="mb-5 font-bold text-7xl">Skills</h2>
     <div class="marquee">
       <ul class="marquee-content">
-        <li><HTMLSvg class="h-20 w-20" /></li>
-        <li><CSSSvg class="h-20 w-20" /></li>
-        <li><SASSSvg class="h-20 w-20" /></li>
-        <li><JSSvg class="h-20 w-20" /></li>
-        <li><VueSvg class="h-20 w-20" /></li>
-        <li><NuxtSvg class="h-20 w-20" /></li>
-        <li><ReactSvg class="h-20 w-20" /></li>
-        <li><TailwindSvg class="h-20 w-20" /></li>
-        <li><BootstrapSvg class="h-20 w-20" /></li>
-        <li><NodeSvg class="h-20 w-20" /></li>
-        <li><GoSvg class="h-20 w-20" /></li>
-        <li><TypeScriptSvg class="h-20 w-20" /></li>
-        <li><GitSvg class="h-20 w-20" /></li>
+        <li class="flex flex-col">
+          <HTMLSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold font">HTML</span>
+        </li>
+        <li class="flex flex-col">
+          <CSSSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">CSS</span>
+        </li>
+        <li class="flex flex-col">
+          <SASSSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">SCSS</span>
+        </li>
+        <li class="flex flex-col">
+          <JSSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">JavaScript</span>
+        </li>
+        <li class="flex flex-col">
+          <VueSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">VueJs</span>
+        </li>
+        <li class="flex flex-col">
+          <NuxtSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">NuxtJs</span>
+        </li>
+        <li class="flex flex-col">
+          <ReactSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">ReactJs</span>
+        </li>
+        <li class="flex flex-col">
+          <TailwindSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">Tailwind CSS</span>
+        </li>
+        <li class="flex flex-col">
+          <BootstrapSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">Bootstrap CSS</span>
+        </li>
+        <li class="flex flex-col">
+          <NodeSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">NodeJs</span>
+        </li>
+        <li class="flex flex-col">
+          <GoSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">Go</span>
+        </li>
+        <li class="flex flex-col">
+          <TypeScriptSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">TypeScript</span>
+        </li>
+        <li class="flex flex-col">
+          <GitSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">Git</span>
+        </li>
 
-        <li><HTMLSvg class="h-20 w-20" /></li>
-        <li><CSSSvg class="h-20 w-20" /></li>
-        <li><SASSSvg class="h-20 w-20" /></li>
-        <li><JSSvg class="h-20 w-20" /></li>
-        <li><VueSvg class="h-20 w-20" /></li>
-        <li><NuxtSvg class="h-20 w-20" /></li>
+        <li class="flex flex-col">
+          <HTMLSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">HTML</span>
+        </li>
+        <li class="flex flex-col">
+          <CSSSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">CSS</span>
+        </li>
+        <li class="flex flex-col">
+          <SASSSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">SCSS</span>
+        </li>
+        <li class="flex flex-col">
+          <JSSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">JavaScript</span>
+        </li>
+        <li class="flex flex-col">
+          <VueSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">VueJs</span>
+        </li>
+        <li class="flex flex-col">
+          <NuxtSvg class="w-20 h-20" />
+          <span class="mt-4 text-lg font-semibold">NuxtJs</span>
+        </li>
       </ul>
     </div>
   </div>
