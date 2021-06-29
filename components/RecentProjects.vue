@@ -8,34 +8,13 @@
     <section class="philosophie">
       <div class="wrapper">
         <div class="indicators">
+          <!-- <div class="indicator"></div>
           <div class="indicator"></div>
           <div class="indicator"></div>
-          <div class="indicator"></div>
-          <div class="indicator"></div>
+          <div class="indicator"></div> -->
           <!-- <div class="indicator"></div> -->
         </div>
-        <!-- <div class="point">
-          <img
-            class="col-start-1 col-end-7 box1"
-            src="~/assets/img/hope-adoli.png"
-            alt="Hope Adoli"
-          />
-          <article>
-            <h3 class="pb-5 text-2xl font-semibold">HOPE ADOLI</h3>
-            <div class="pb-5 border-b-2 border-white">
-              <p class="text-sm">
-                Built a custom portfolio website for one of Ghana’s best product
-                designers.
-              </p>
-            </div>
-            <p class="py-5 border-b-2 border-white">Hope Adoli • 2021</p>
-            <p class="py-5 border-b-2 border-white">Nuxt, Vue/VueX, Tailwind</p>
-            <p class="py-5 border-b-2 border-white">
-              <nuxt-link to="#" class="move-r">uxkafui.co</nuxt-link>
-            </p>
-          </article>
-        </div> -->
-        <!-- <div class="point"> -->
+
         <Project
           :name="hope.name"
           :company="hope.company"
@@ -70,6 +49,7 @@
           :img-url="appruveDashboard.imgUrl"
         />
       </div>
+      <!-- <Together /> -->
     </section>
   </div>
 </template>
@@ -83,6 +63,7 @@ gsap.registerPlugin(ScrollTrigger)
 export default {
   components: {
     Project: () => import('~/components/Project.vue'),
+    // Together: () => import('~/components/Together.vue'),
   },
 
   data() {
@@ -93,7 +74,7 @@ export default {
         description: `Built a custom portfolio website for one of Ghana’s best product
                 designers`,
         year: '2021',
-        stack: 'NuxJSt, VueJS/VueXJS, Tailwind CSS',
+        stack: 'NuxJSt, VueJS/VueXJS, Tailwind CSS, SCSS',
         url: 'https://uxkafui.co',
         imgUrl: 'hope-adoli.png',
       },
@@ -102,7 +83,7 @@ export default {
         company: 'Walulel Ghana',
         description: `WaCommunicate is Walulel’s Geosocial Communication Platform. It’s a social network designed for the neighbourhood community.`,
         year: '2021',
-        stack: 'NuxtJS, VueJS/VueXJS, Tailwind CSS',
+        stack: 'NuxtJS, VueJS/VueXJS, Tailwind CSS, SCSS',
         url: 'https://wa-communicate.com',
         imgUrl: 'wacomm.png',
       },
@@ -111,7 +92,7 @@ export default {
         company: 'Appruve',
         description: `Appruve builds tools to connect Africans to opportunities globally. It helps businesses use financial and identity data across Africa to detect fraud and automate compliance in their organisations..`,
         year: '2020',
-        stack: 'NuxtJS, VueJS/VueXJS, Tachyons CSS',
+        stack: 'NuxtJS, VueJS/VueXJS, Tachyons CSS, SCSS',
         url: 'https://appruve.co',
         imgUrl: 'appruve-website.png',
       },
@@ -120,7 +101,7 @@ export default {
         company: 'Walulel Ghana',
         description: `Build the custom dashboard of Appruve to handle clients businesses`,
         year: '2020',
-        stack: 'NuxtJS, VueJS/VueXJS, Tachyons CSS',
+        stack: 'NuxtJS, VueJS/VueXJS, Tachyons CSS, SCSS',
         url: 'https://dashboard.appruve.co',
         imgUrl: 'appruve-dashboard.png',
       },
@@ -240,7 +221,7 @@ export default {
 }
 
 .philosophie .wrapper {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 }
 

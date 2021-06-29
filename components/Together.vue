@@ -1,35 +1,30 @@
 <template>
-  <div class="together">
-    <h1>Together we can do amazing things. Get in touch.</h1>
-
-    <div class="flex justify-between">
-      <small>https://github.com/nytro04</small>
-      <small
-        >Designed by
-        <a
-          class=""
-          href="https://github.com/nytro04"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          this
-        </a>
-        guy
-      </small>
+  <div class="flex items-center justify-center h-screen together">
+    <div class="blast">
+      <h1 class="font-bold text-center text-8xl">
+        Together we can do amazing things.
+      </h1>
+      <a
+        href="mailto:nytro04@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="blast"
+        >Get in touch.</a
+      >
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  // layout: 'plain',
+}
 </script>
 
 <style scoped lang="scss">
 .together {
-  position: sticky;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  background-color: black;
+  margin: 0 -7.5rem;
+  padding: 0 3rem;
+  background-color: #000;
 }
 </style>

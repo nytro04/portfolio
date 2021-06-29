@@ -24,3 +24,87 @@
     }
   }
 }
+
+.blast {
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: #505e4d;
+    // z-index: -1;
+    bottom: 5px;
+    left: 8px;
+    height: 40%;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+  }
+
+  // &:hover::before {
+  //   transform: translateX(0);
+  // }
+}
+
+.vertical-line {
+  animation-name: vertical-move;
+  animation-duration: 4s;
+  height: 150vh;
+  left: 1.5%;
+  position: absolute;
+  top: 0;
+  border-left: 0.1px solid #c5c1c1;
+}
+
+.horizontal-line {
+  position: absolute;
+  left: 1rem;
+  // top: 2%;
+  width: 100%;
+  animation-name: hori-move;
+  animation-duration: 4s;
+}
+
+@keyframes hori-move {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes vertical-move {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+
+.slider {
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    //  border-bottom: 2px solid white;
+
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+  }
+
+  &:hover::before {
+    transform: translateX(0);
+  }
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="stacks">
+  <div id="skills" class="stacks">
     <h2 class="mb-5 font-bold text-7xl">Skills</h2>
     <div class="marquee">
       <ul class="marquee-content">
