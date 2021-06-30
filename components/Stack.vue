@@ -1,84 +1,84 @@
 <template>
   <div id="skills" class="stacks">
-    <h2 class="mb-5 font-bold text-7xl">Skills</h2>
+    <h2 class="mb-5 text-5xl font-bold md:text-6xl lg:text-7xl">Skills</h2>
     <div class="marquee">
       <ul class="marquee-content">
         <li class="flex flex-col">
-          <HTMLSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold font">HTML</span>
+          <HTMLSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">HTML</span>
         </li>
         <li class="flex flex-col">
-          <CSSSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">CSS</span>
+          <CSSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">CSS</span>
         </li>
         <li class="flex flex-col">
-          <SASSSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">SCSS</span>
+          <SASSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">SCSS</span>
         </li>
         <li class="flex flex-col">
-          <JSSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">JavaScript</span>
+          <JSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">JavaScript</span>
         </li>
         <li class="flex flex-col">
-          <VueSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">VueJs</span>
+          <VueSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">VueJs</span>
         </li>
         <li class="flex flex-col">
-          <NuxtSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">NuxtJs</span>
+          <NuxtSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">NuxtJs</span>
         </li>
         <li class="flex flex-col">
-          <ReactSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">ReactJs</span>
+          <ReactSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">ReactJs</span>
         </li>
         <li class="flex flex-col">
-          <TailwindSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">Tailwind CSS</span>
+          <TailwindSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">Tailwind</span>
         </li>
         <li class="flex flex-col">
-          <BootstrapSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">Bootstrap CSS</span>
+          <BootstrapSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">Bootstrap</span>
         </li>
         <li class="flex flex-col">
-          <NodeSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">NodeJs</span>
+          <NodeSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">NodeJs</span>
         </li>
         <li class="flex flex-col">
-          <GoSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">Go</span>
+          <GoSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">Go</span>
         </li>
         <li class="flex flex-col">
-          <TypeScriptSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">TypeScript</span>
+          <TypeScriptSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">TypeScript</span>
         </li>
         <li class="flex flex-col">
-          <GitSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">Git</span>
+          <GitSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">Git</span>
         </li>
 
         <li class="flex flex-col">
-          <HTMLSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">HTML</span>
+          <HTMLSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">HTML</span>
         </li>
         <li class="flex flex-col">
-          <CSSSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">CSS</span>
+          <CSSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">CSS</span>
         </li>
         <li class="flex flex-col">
-          <SASSSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">SCSS</span>
+          <SASSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">SCSS</span>
         </li>
         <li class="flex flex-col">
-          <JSSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">JavaScript</span>
+          <JSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">JavaScript</span>
         </li>
         <li class="flex flex-col">
-          <VueSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">VueJs</span>
+          <VueSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">VueJs</span>
         </li>
         <li class="flex flex-col">
-          <NuxtSvg class="w-20 h-20" />
-          <span class="mt-4 text-lg font-semibold">NuxtJs</span>
+          <NuxtSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">NuxtJs</span>
         </li>
       </ul>
     </div>
@@ -122,13 +122,24 @@ export default {
 <style lang="scss" scoped>
 @import './assets/scss/abstracts/_mixins.scss';
 
+.stacks {
+  @include respond(tab-land) {
+  }
+  @include respond(tab-port) {
+  }
+
+  @include respond(phone) {
+    @apply px-8;
+  }
+}
+
 .scroller {
   width: 300%;
   animation: scroll 30s linear infinite;
 
-  /* @include respond(phone) {
+  @include respond(phone) {
     width: 700%;
-  } */
+  }
 }
 
 @keyframes scroll {
