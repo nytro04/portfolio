@@ -14,11 +14,11 @@
       </div>
       <p class="py-5 border-b-2 border-white">{{ name }} • {{ year }}</p>
       <p class="py-5 border-b-2 border-white">{{ stack }}</p>
-      <p class="py-5 border-b-2 border-white">
+      <div class="py-5 border-b-2 border-white">
         <a class="move-r" :href="url" target="_blank" rel="noopener noreferrer">
           {{ url }}
         </a>
-      </p>
+      </div>
     </article>
   </div>
 </template>

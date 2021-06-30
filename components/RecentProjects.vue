@@ -74,7 +74,7 @@ export default {
         description: `Built a custom portfolio website for one of Ghana’s best product
                 designers`,
         year: '2021',
-        stack: 'NuxJSt, VueJS/VueXJS, Tailwind CSS, SCSS',
+        stack: 'NuxtJS, VueJS/VueXJS, Tailwind CSS, SCSS',
         url: 'https://uxkafui.co',
         imgUrl: 'hope-adoli.png',
       },
