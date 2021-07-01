@@ -4,4 +4,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    // this.isOverflown() 
+  },
+
+  methods: {
+    // isOverflown(element) {
+    //   return (
+    //     element.scrollHeight > element.clientHeight ||
+    //     element.scrollWidth > element.clientWidth
+    //   )
+    // },
+  },
+}
+</script>
+
 <style></style>

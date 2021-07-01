@@ -1,19 +1,19 @@
 <template>
   <div class="recent">
-    <h2 class="font-bold text-7xl">
+    <h2 class="mb-20 text-5xl font-bold md:mb-0 md:text-6xl lg:text-7xl">
       Recent <br />
       Projects.
     </h2>
 
     <section class="philosophie">
       <div class="wrapper">
-        <div class="indicators">
+        <!-- <div class="indicators"> -->
           <!-- <div class="indicator"></div>
           <div class="indicator"></div>
           <div class="indicator"></div>
           <div class="indicator"></div> -->
           <!-- <div class="indicator"></div> -->
-        </div>
+        <!-- </div> -->
 
         <Project
           :name="hope.name"
@@ -90,7 +90,7 @@ export default {
       appruveWebsite: {
         name: 'Appruve website',
         company: 'Appruve',
-        description: `Appruve builds tools to connect Africans to opportunities globally. It helps businesses use financial and identity data across Africa to detect fraud and automate compliance in their organisations..`,
+        description: `Appruve builds tools to connect Africans to opportunities globally.`,
         year: '2020',
         stack: 'NuxtJS, VueJS/VueXJS, Tachyons CSS, SCSS',
         url: 'https://appruve.co',
@@ -180,11 +180,25 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.philosophie {
-  position: relative;
+@import './assets/scss/abstracts/_mixins.scss';
+
+.recent {
+  @include respond(tab-land) {
+  }
+  @include respond(tab-port) {
+  }
+
+  @include respond(phone) {
+    @apply px-8 overflow-hidden;
+  }
 }
 
-.indicators {
+.philosophie {
+  position: relative;
+  overflow: hidden;
+}
+
+/* .indicators {
   left: 0;
   top: 0;
   margin: 10vh 0;
@@ -194,14 +208,14 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-}
+} */
 
-.indicator {
+/* .indicator {
   width: 100%;
   background-color: #adadad;
   flex-grow: 1;
   margin: 2px 0;
-}
+} */
 
 .philosophie .point {
   height: 100vh;
@@ -211,6 +225,7 @@ export default {
   gap: 4rem;
   justify-content: center;
   align-content: center;
+  overflow: hidden;
 
   /* width: 100%; */
 
@@ -218,17 +233,39 @@ export default {
   align-items: center;
   justify-content: space-between;
   padding: 4rem; */
+
+  @include respond(tab-land) {
+    height: 60vh;
+  }
+  @include respond(tab-port) {
+    height: 60vh;
+  }
+
+  @include respond(phone) {
+    display: block;
+  }
 }
 
 .philosophie .wrapper {
   height: 80vh;
   width: 100%;
+  overflow: hidden;
+
+  @include respond(tab-land) {
+    height: 60vh;
+  }
+  @include respond(tab-port) {
+    height: 60vh;
+  }
+
+  @include respond(phone) {
+  }
 }
 
 .point article {
   grid-column-start: 8;
   grid-column-end: 13;
-
+  overflow: hidden;
   margin: auto 0;
 }
 
@@ -236,5 +273,9 @@ export default {
   grid-column-start: 1;
   grid-column-end: 7;
   margin-left: 2rem;
+  overflow: hidden;
+  @include respond(phone) {
+    margin-left: 0;
+  }
 }
 </style>
