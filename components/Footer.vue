@@ -1,8 +1,10 @@
 <template>
-  <div class="flex justify-between footer">
+  <div
+    class="items-center pb-10 mx-auto text-sm text-center  md:text-base md:justify-between md:flex footer"
+  >
     <p class="">
       <a
-        class="move-r"
+        class="text-sm move-r md:text-base"
         href="https://github.com/nytro04"
         target="_blank"
         rel="noopener noreferrer"
@@ -10,9 +12,9 @@
         https://github.com/nytro04
       </a>
     </p>
-    <p class="">
+    <p class="my-2">
       <a
-        class="move-r"
+        class="text-sm move-r md:text-base"
         href="https://www.linkedin.com/in/francis-badasu"
         target="_blank"
         rel="noopener noreferrer"
@@ -23,7 +25,7 @@
     <small
       >Designed by
       <a
-        class="underline move-r"
+        class="text-sm underline move-r md:text-base"
         href="https://uxkafui.co"
         target="_blank"
         rel="noopener noreferrer"
@@ -38,10 +40,21 @@ export default {}
 </script>
 
 <style scoped lang="scss">
+@import './assets/scss/abstracts/_mixins.scss';
+
 .footer {
   margin: 0 -7.5rem;
   padding: 0 3rem;
   background-color: #000;
   height: 10vh;
+
+  @include respond(tab-land) {
+  }
+  @include respond(tab-port) {
+  }
+
+  @include respond(phone) {
+    @apply px-8;
+  }
 }
 </style>
