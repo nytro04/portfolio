@@ -1,7 +1,9 @@
 <template>
   <div class="flex items-center justify-center md:h-screen together">
     <div class="blast">
-      <h1 class="text-3xl font-bold text-center lg:text-8xl md:text-6xl">
+      <h1
+        class="w-2/3 mx-auto text-3xl font-bold text-center  lg:text-8xl md:text-6xl"
+      >
         Together we can do amazing things.
       </h1>
       <a
