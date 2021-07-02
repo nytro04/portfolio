@@ -8,11 +8,11 @@
     <section class="philosophie">
       <div class="wrapper">
         <!-- <div class="indicators"> -->
-          <!-- <div class="indicator"></div>
+        <!-- <div class="indicator"></div>
           <div class="indicator"></div>
           <div class="indicator"></div>
           <div class="indicator"></div> -->
-          <!-- <div class="indicator"></div> -->
+        <!-- <div class="indicator"></div> -->
         <!-- </div> -->
 
         <Project

@@ -5,6 +5,7 @@
   transition: all 0.5s;
   width: auto;
   overflow: hidden;
+  display: inline-block;
 
   &::after {
     content: url('~/assets/svgs/chevron-right.svg');

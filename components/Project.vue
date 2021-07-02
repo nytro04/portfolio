@@ -3,7 +3,7 @@
     <img
       class="col-start-1 col-end-7 mb-10 md:mb-0 box1"
       :src="require(`~/assets/img/${imgUrl}`)"
-      alt="Hope Adoli"
+      :alt="name"
     />
     <article class="">
       <h3 class="pb-5 text-xl font-semibold uppercase md:text-2xl">

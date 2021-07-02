@@ -34,7 +34,7 @@ export default {
   },
   head() {
     return {
-      title: 'Francis Badasu | Portfolio Index',
+      title: 'Francis Badasu | Portfolio',
     }
   },
 
