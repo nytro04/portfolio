@@ -2,36 +2,34 @@
   <div
     class="items-center pb-10 mx-auto text-sm text-center  md:text-base md:justify-between md:flex footer"
   >
-    <p class="">
-      <a
-        class="text-sm move-r md:text-base"
-        href="https://github.com/nytro04"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://github.com/nytro04
-      </a>
-    </p>
-    <p class="my-2">
-      <a
-        class="text-sm move-r md:text-base"
-        href="https://www.linkedin.com/in/francis-badasu"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://www.linkedin.com/in/francis-badasu
-      </a>
-    </p>
-    <small
+    <a
+      class="text-sm md:text-base"
+      href="https://github.com/nytro04"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      https://github.com/nytro04
+    </a>
+
+    <a
+      class="text-sm md:text-base"
+      href="https://www.linkedin.com/in/francis-badasu"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      https://www.linkedin.com/in/francis-badasu
+    </a>
+
+    <span
       >Designed by
       <a
-        class="text-sm underline move-r md:text-base"
+        class="text-sm underline md:text-base"
         href="https://uxkafui.co"
         target="_blank"
         rel="noopener noreferrer"
         >this guy
       </a>
-    </small>
+    </span>
   </div>
 </template>
 
