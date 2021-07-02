@@ -28,31 +28,29 @@
     </header> -->
 
     <footer
-      class="col-start-2 col-end-12 my-10 space-y-2 md:flex md:justify-between"
+      class="items-center col-start-2 col-end-12 my-10  md:flex md:justify-between"
     >
-      <p class="slider">
-        <a
-          class="text-xs md:text-sm"
-          href="https://github.com/nytro04"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://github.com/nytro04
-        </a>
-      </p>
-      <p class="slider">
-        <a
-          class="text-xs md:text-sm"
-          href="https://www.linkedin.com/in/francis-badasu"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://www.linkedin.com/in/francis-badasu
-        </a>
-      </p>
-      <p class="text-xs md:text-sm lg:block sm:hidden">
+      <a
+        class="text-xs md:text-sm move-r"
+        href="https://github.com/nytro04"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://github.com/nytro04
+      </a>
+
+      <a
+        class="text-xs md:text-sm move-r"
+        href="https://www.linkedin.com/in/francis-badasu"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://www.linkedin.com/in/francis-badasu
+      </a>
+
+      <span class="text-xs md:text-sm lg:block sm:hidden">
         &copy; 2021. All rights reserved.
-      </p>
+      </span>
     </footer>
 
     <section
