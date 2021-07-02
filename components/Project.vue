@@ -1,7 +1,7 @@
 <template>
   <div class="point">
     <img
-      class="col-start-1 col-end-7 mb-10 md:mb-0 box1"
+      class="col-start-1 col-end-7 pb-10 md:pb-0 box1"
       :src="require(`~/assets/img/${imgUrl}`)"
       :alt="name"
     />

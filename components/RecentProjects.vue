@@ -128,7 +128,7 @@ export default {
         duration: points.length,
         scrollTrigger: {
           trigger: '.philosophie',
-          start: 'top center',
+          start: 'center center',
           end: '+=' + height + '%',
           scrub: true,
           id: 'points',
@@ -139,7 +139,7 @@ export default {
       const pinner = gsap.timeline({
         scrollTrigger: {
           trigger: '.philosophie .wrapper',
-          start: 'top top',
+          start: 'center center',
           end: '+=' + height + '%',
           scrub: true,
           pin: '.philosophie .wrapper',

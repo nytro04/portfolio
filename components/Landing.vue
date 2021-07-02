@@ -160,6 +160,10 @@ export default {
     font-size: 4.25rem;
     letter-spacing: 0.2rem;
   }
+  @include respond(tab-port) {
+    font-size: 3.4rem;
+    letter-spacing: 0.2rem;
+  }
 
   @include respond(phone) {
     font-size: 2rem;
