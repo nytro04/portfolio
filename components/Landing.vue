@@ -48,9 +48,9 @@
         https://www.linkedin.com/in/francis-badasu
       </a>
 
-      <span class="text-xs md:text-sm lg:block sm:hidden">
+      <p class="text-xs md:text-sm lg:block sm:hidden">
         &copy; 2021. All rights reserved.
-      </span>
+      </p>
     </footer>
 
     <section
