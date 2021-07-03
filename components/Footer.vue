@@ -12,7 +12,7 @@
     </a>
 
     <a
-      class="text-sm md:text-base"
+      class="py-2 text-sm md:text-base"
       href="https://www.linkedin.com/in/francis-badasu"
       target="_blank"
       rel="noopener noreferrer"
@@ -20,16 +20,13 @@
       https://www.linkedin.com/in/francis-badasu
     </a>
 
-    <span
-      >Designed by
-      <a
-        class="text-sm underline md:text-base"
-        href="https://uxkafui.co"
-        target="_blank"
-        rel="noopener noreferrer"
-        >this guy
-      </a>
-    </span>
+    <a
+      class="text-sm underline md:text-base"
+      href="https://uxkafui.co"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Designed by this guy
+    </a>
   </div>
 </template>
 
@@ -53,6 +50,12 @@ export default {}
 
   @include respond(phone) {
     @apply px-8;
+  }
+
+  @include respond(phone) {
+    a {
+      display: block;
+    }
   }
 }
 </style>

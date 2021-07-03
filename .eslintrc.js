@@ -16,7 +16,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'prettier/prettier': {
-      htmlWhitespaceSensitivity: 0,
+      htmlWhitespaceSensitivity: off,
     },
   },
 }
