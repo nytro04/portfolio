@@ -50,6 +50,7 @@ export default {}
 
   @include respond(phone) {
     @apply px-8;
+    height: 20vh;
   }
 
   @include respond(phone) {
