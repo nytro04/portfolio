@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-4 sm:px-10">
+  <div class="container mx-auto sm:px-10">
     <Nuxt />
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script>
 export default {
   mounted() {
-    // this.isOverflown() 
+    // this.isOverflown()
   },
 
   methods: {

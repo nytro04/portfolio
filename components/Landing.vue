@@ -21,8 +21,8 @@
     </vue-particles> -->
 
     <header class="col-start-1 col-end-13 mt-5 vertical-line">
-      <!-- <h1 class="header-text">FRANCIS BADASU</h1> -->
-      <HeaderImgSvg class="" />
+      <h1 class="header-text">FRANCIS BADASU</h1>
+      <HeaderImgSvg class="hidden xl:block" />
     </header>
     <div class="vertical-line-2"></div>
     <div class="vertical-line-3"></div>
@@ -38,7 +38,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10 horizontal-line-1"
+      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  horizontal-line-1"
     >
       <a
         class="col-span-6 text-xs md:text-sm move-r"
@@ -64,7 +64,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <section
-      class="grid-cols-12 col-start-1 col-end-11 md:grid md:gap-16 landing horizontal-line-2"
+      class="grid-cols-12 col-start-1 col-end-11  md:grid md:gap-16 landing horizontal-line-2"
     >
       <h2
         class="col-start-1 col-end-6 text-2xl font-bold lg:text-4xl md:text-3xl"
@@ -87,7 +87,7 @@
     </section>
 
     <section
-      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16 md:grid landing horizontal-line-3"
+      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16  md:grid landing horizontal-line-3"
     >
       <img
         class="col-start-2 col-end-10 mx-auto md:w-full md:mx-0 pic-left"
@@ -95,7 +95,7 @@
         alt="Francis Badasu"
       />
       <div
-        class="col-start-10 col-end-13 mx-auto mt-10 md:mt-20 avai horizontal-line-4"
+        class="col-start-10 col-end-13 mx-auto mt-10  md:mt-20 avai horizontal-line-4"
       >
         <p class="mb-5">Available for new projects.</p>
         <a
@@ -175,24 +175,29 @@ export default {
   font-size: 7.5rem;
   letter-spacing: 0.32rem;
   line-height: 1;
+  display: none;
 
   @include respond(tab-land) {
     font-size: 5.9rem;
     letter-spacing: 0.2rem;
+    display: block;
   }
   @include respond(tab-port) {
     font-size: 4.25rem;
     letter-spacing: 0.2rem;
+    display: block;
   }
   @include respond(tab-port) {
     font-size: 3.4rem;
     letter-spacing: 0.2rem;
+    display: block;
   }
 
   @include respond(phone) {
     font-size: 2rem;
     letter-spacing: 0.2rem;
     margin: 0 0.4rem;
+    display: block;
   }
 }
 </style>

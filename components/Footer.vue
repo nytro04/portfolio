@@ -27,6 +27,8 @@
       rel="noopener noreferrer"
       >Designed by this guy
     </a>
+
+    <p class="py-2 text-sm md:text-base">&copy; 2021. All rights reserved.</p>
   </div>
 </template>
 
