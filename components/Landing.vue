@@ -38,7 +38,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  horizontal-line-1"
+      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10 horizontal-line-1"
     >
       <a
         class="col-span-6 text-xs md:text-sm move-r"
@@ -64,7 +64,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <section
-      class="grid-cols-12 col-start-1 col-end-11  md:grid md:gap-16 landing horizontal-line-2"
+      class="grid-cols-12 col-start-1 col-end-11 md:grid md:gap-16 landing horizontal-line-2"
     >
       <h2
         class="col-start-1 col-end-6 text-2xl font-bold lg:text-4xl md:text-3xl"
@@ -87,14 +87,16 @@
     </section>
 
     <section
-      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16  md:grid landing horizontal-line-3"
+      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16 md:grid landing horizontal-line-3"
     >
       <img
         class="col-start-2 col-end-10 mx-auto md:w-full md:mx-0 pic-left"
         src="~/assets/img/hero-img.png"
         alt="Francis Badasu"
       />
-      <div class="col-start-10 col-end-13 mx-auto mt-10 md:mt-20 avai">
+      <div
+        class="col-start-10 col-end-13 mx-auto mt-10 md:mt-20 avai horizontal-line-4"
+      >
         <p class="mb-5">Available for new projects.</p>
         <a
           href="mailto:nytro04@gmail.com"

@@ -243,14 +243,30 @@
   position: relative;
   &::after {
     content: '';
-    animation-name: hori-move;
+    animation-name: hori-move-short;
     animation-duration: 4s;
     // animation: hori-move 4s infinite;
     // height: 180vh;
-    width: 10rem;
+    width: 9.2rem;
     left: 0;
     position: absolute;
-    top: 0.18rem;
+    top: 0rem;
+    border-bottom: 0.1px solid #c5c1c1;
+  }
+}
+
+.horizontal-line-4 {
+  position: relative;
+  &::after {
+    content: '';
+    animation-name: hori-move-4;
+    animation-duration: 4s;
+    // animation: hori-move 4s infinite;
+    // height: 180vh;
+    width: 17.4rem;
+    left: 0;
+    position: absolute;
+    top: 6rem;
     border-bottom: 0.1px solid #c5c1c1;
   }
 }
@@ -292,6 +308,22 @@
   }
   to {
     width: 100%;
+  }
+}
+@keyframes hori-move-short {
+  from {
+    width: 0;
+  }
+  to {
+    width: 9.2rem;
+  }
+}
+@keyframes hori-move-4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 17.4rem;
   }
 }
 
