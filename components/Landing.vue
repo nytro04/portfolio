@@ -1,5 +1,5 @@
 <template>
-  <div class="relative grid grid-cols-12 gap-4 overflow-hidden">
+  <div class="relative grid grid-cols-1 gap-4 overflow-hidden md:grid-cols-12">
     <!-- <vue-particles
       id="particles-js"
       color="#dedede"
@@ -20,18 +20,36 @@
     >
     </vue-particles> -->
 
-    <header class="col-start-1 col-end-13 mt-5">
-      <h1 class="header-text">FRANCIS BADASU</h1>
+    <header class="col-start-1 col-end-13 mt-5 vertical-line">
+      <!-- <h1 class="header-text">FRANCIS BADASU</h1> -->
+      <HeaderImgSvg class="" />
     </header>
+    <div class="vertical-line-2"></div>
+    <div class="vertical-line-3"></div>
+    <div class="vertical-line-4"></div>
+    <div class="vertical-line-5"></div>
+    <div class="vertical-line-6"></div>
+    <div class="vertical-line-7"></div>
+    <!-- <div class="horizontal-line-1"></div> -->
+    <!-- <div class="vertical-line-2"></div> -->
     <!-- <header class="col-start-1 col-end-13 mt-5">
       <HeaderImgSvg class="" />
     </header> -->
+    <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="items-center col-start-2 col-end-12 my-10  md:flex md:justify-between"
+      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  horizontal-line-1"
     >
       <a
-        class="text-xs md:text-sm move-r"
+        class="col-span-6 text-xs md:text-sm move-r"
+        href="https://www.linkedin.com/in/francis-badasu"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://www.linkedin.com/in/francis-badasu
+      </a>
+      <a
+        class="col-span-5 col-start-9 ml-3 text-xs md:text-sm move-r"
         href="https://github.com/nytro04"
         target="_blank"
         rel="noopener noreferrer"
@@ -39,33 +57,28 @@
         https://github.com/nytro04
       </a>
 
-      <a
-        class="text-xs md:text-sm move-r"
-        href="https://www.linkedin.com/in/francis-badasu"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://www.linkedin.com/in/francis-badasu
-      </a>
-
-      <p class="text-xs md:text-sm lg:block sm:hidden">
+      <!-- <p class="text-xs md:text-sm lg:block sm:hidden">
         &copy; 2021. All rights reserved.
-      </p>
+      </p> -->
     </footer>
+    <!-- <div class="line-bottom"></div> -->
 
     <section
-      class="grid-cols-12 col-start-1 col-end-11 md:grid md:gap-16 landing"
+      class="grid-cols-12 col-start-1 col-end-11  md:grid md:gap-16 landing horizontal-line-2"
     >
-      <h3 class="col-start-1 col-end-6 text-2xl lg:text-4xl md:text-3xl">
+      <h2
+        class="col-start-1 col-end-6 text-2xl font-bold lg:text-4xl md:text-3xl"
+      >
+        <!-- A Front-End Web Developer based in Accra, Ghana. -->
         A Front-End Web Developer operating from my base in Accra, Ghana.
-      </h3>
-      <div class="col-start-7 col-end-12 mt-10 md:mt-0">
-        <p class="text-xs md:text-sm">
+      </h2>
+      <div class="col-start-6 col-end-11 mt-10 md:mt-0">
+        <p class="">
           I love to translate designs into clean, elegant, functional and
           responsive User Interfaces.
         </p>
 
-        <p class="mt-6 text-xs md:text-sm">
+        <p class="mt-6">
           I have industry experience building websites and web applications
           using HTML, CSS, SCSS, JavaScript, Vue/Vuex, Nuxt, React/Redux, NodeJs
           and Go and quite recently TypeScript.
@@ -74,20 +87,20 @@
     </section>
 
     <section
-      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16 md:grid landing"
+      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16  md:grid landing horizontal-line-3"
     >
       <img
-        class="col-start-3 col-end-11 mx-auto md:w-full md:mx-0"
+        class="col-start-2 col-end-10 mx-auto md:w-full md:mx-0 pic-left"
         src="~/assets/img/hero-img.png"
         alt="Francis Badasu"
       />
-      <div class="col-start-11 col-end-13 mx-auto mt-10 md:mt-20">
-        <p class="mb-5 text-sm">Available for new projects.</p>
+      <div class="col-start-10 col-end-13 mx-auto mt-10 md:mt-20 avai">
+        <p class="mb-5">Available for new projects.</p>
         <a
           href="mailto:nytro04@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          class="font-semibold btn-bg"
+          class="text-lg font-semibold btn-bg"
           >Get in touch</a
         >
 
@@ -103,12 +116,12 @@
 
 <script>
 import ScrollDownSvg from '~/assets/svgs/scroll-down.svg?inline'
-// import HeaderImgSvg from '~/assets/svgs/header-img.svg?inline'
+import HeaderImgSvg from '~/assets/svgs/header-img.svg?inline'
 export default {
   name: 'LandingPage',
   components: {
     ScrollDownSvg,
-    // HeaderImgSvg,
+    HeaderImgSvg,
   },
 }
 </script>
@@ -116,12 +129,11 @@ export default {
 <style lang="scss" scoped>
 @import './assets/scss/abstracts/_mixins.scss';
 
-#particles-js {
+/* #particles-js {
   width: 100%;
-  /* height: calc(100% - 100px); */
   height: 150vh;
   position: absolute;
-}
+} */
 
 .landing {
   @include respond(tab-land) {
@@ -133,6 +145,18 @@ export default {
     @apply px-8;
   }
 }
+
+.pic-left {
+  padding-left: 3.37rem;
+}
+
+.avai {
+  padding-right: 1rem;
+}
+
+/* .line-bottom {
+  border-bottom: 0.1px solid #c5c1c1;
+} */
 
 /* .header-svg {
   margin: 0 -7.5rem;

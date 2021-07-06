@@ -118,31 +118,140 @@
 // }
 
 .vertical-line {
-  animation-name: vertical-move;
-  animation-duration: 4s;
-  height: 150vh;
-  left: 1.5%;
-  position: absolute;
-  top: 0;
-  border-left: 0.1px solid #c5c1c1;
-}
-
-.horizontal-line {
-  position: absolute;
-  left: 1rem;
-  // top: 2%;
-  width: 100%;
-  animation-name: hori-move;
-  animation-duration: 4s;
-  overflow: hidden;
-}
-
-@keyframes hori-move {
-  from {
-    width: 0%;
+  &::before {
+    content: '';
+    animation-name: vertical-move;
+    animation-duration: 4s;
+    height: 180vh;
+    // left: 7px;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
   }
-  to {
-    width: 100%;
+}
+.vertical-line-2 {
+  &::after {
+    content: '';
+    animation-name: vertical-move-short;
+    animation-duration: 4s;
+    height: 40.7rem;
+    left: 9.2rem;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
+  }
+}
+.vertical-line-3 {
+  &::after {
+    content: '';
+    animation-name: vertical-move-short;
+    animation-duration: 4s;
+    height: 40.7rem;
+
+    // height: 81.35vh;
+    left: 19rem;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
+  }
+}
+.vertical-line-4 {
+  &::after {
+    content: '';
+    animation-name: vertical-move-short;
+    animation-duration: 4s;
+
+    height: 40.7rem;
+
+    // height: 81.35vh;
+    left: 51.2rem;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
+  }
+}
+
+.vertical-line-5 {
+  &::after {
+    content: '';
+    animation-name: vertical-move;
+    animation-duration: 4s;
+    height: 180vh;
+    left: 52.9rem;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
+  }
+}
+
+.vertical-line-6 {
+  &::after {
+    content: '';
+    animation-name: vertical-move;
+    animation-duration: 4s;
+    height: 180vh;
+    left: 70.3rem;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
+  }
+}
+.vertical-line-7 {
+  &::after {
+    content: '';
+    animation-name: vertical-move;
+    animation-duration: 4s;
+    height: 180vh;
+    left: 74.98rem;
+    position: absolute;
+    top: -4rem;
+    border-left: 0.1px solid #c5c1c1;
+  }
+}
+
+.horizontal-line-1 {
+  position: relative;
+  &::after {
+    content: '';
+    animation-name: hori-move;
+    animation-duration: 4s;
+    // height: 180vh;
+    width: 51.3rem;
+    left: 0;
+    position: absolute;
+    bottom: 1.2rem;
+    border-bottom: 0.1px solid #c5c1c1;
+  }
+}
+.horizontal-line-2 {
+  position: relative;
+  &::after {
+    content: '';
+    animation-name: hori-move;
+    animation-duration: 4s;
+    // animation: hori-move 4s infinite;
+    // height: 180vh;
+    width: 70.3rem;
+    left: 0;
+    position: absolute;
+    top: 0.18rem;
+    border-bottom: 0.1px solid #c5c1c1;
+  }
+}
+
+.horizontal-line-3 {
+  position: relative;
+  &::after {
+    content: '';
+    animation-name: hori-move;
+    animation-duration: 4s;
+    // animation: hori-move 4s infinite;
+    // height: 180vh;
+    width: 10rem;
+    left: 0;
+    position: absolute;
+    top: 0.18rem;
+    border-bottom: 0.1px solid #c5c1c1;
   }
 }
 
@@ -152,6 +261,37 @@
   }
   to {
     height: 100vh;
+  }
+  to {
+    height: 180vh;
+  }
+}
+
+@keyframes vertical-move-short {
+  from {
+    height: 0rem;
+  }
+  to {
+    height: 40.7rem;
+  }
+}
+
+// .horizontal-line {
+//   position: absolute;
+//   left: 1rem;
+//   // top: 2%;
+//   width: 100%;
+//   animation-name: hori-move;
+//   animation-duration: 4s;
+//   overflow: hidden;
+// }
+
+@keyframes hori-move {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
   }
 }
 

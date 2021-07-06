@@ -17,12 +17,14 @@ html {
 body {
   box-sizing: border-box;
   background-color: #505e4d;
+  // background-color: #000;
   color: white;
 }
 
 ::selection {
   background-color: white;
   color: #505e4d;
+  // color: #000;
 }
 
 // $marquee-count: 13;
