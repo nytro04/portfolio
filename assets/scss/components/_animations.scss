@@ -350,3 +350,33 @@
     transform: translateX(0);
   }
 }
+
+.new-recent {
+  // perspective: 600px;
+  // overflow-x: hidden;
+}
+
+.img-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  img {
+    width: 800px;
+    height: 500px;
+    box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
+  }
+
+  &:nth-child(1) img {
+    transform: rotate(10deg);
+  }
+  &:nth-child(2) img {
+    transform: rotate(0deg);
+  }
+  &:nth-child(3) img {
+    transform: rotate(-10deg);
+  }
+}

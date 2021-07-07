@@ -6,7 +6,7 @@
     </div>
 
     <div class="mt-32 cool">
-      <RecentProjects />
+      <Recent2 />
     </div>
 
     <div class="mt-32">
@@ -28,7 +28,8 @@ export default {
   components: {
     Landing: () => import('~/components/Landing.vue'),
     Stack: () => import('~/components/Stack.vue'),
-    RecentProjects: () => import('~/components/RecentProjects.vue'),
+    // RecentProjects: () => import('~/components/RecentProjects.vue'),
+    Recent2: () => import('~/components/Recent2.vue'),
     Together: () => import('~/components/Together.vue'),
     Footer: () => import('~/components/Footer.vue'),
   },
