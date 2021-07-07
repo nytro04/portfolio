@@ -38,7 +38,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  horizontal-line-1"
+      class="grid grid-flow-row grid-cols-12 my-10  md:col-start-1 md:col-end-13 horizontal-line-1"
     >
       <a
         class="col-span-6 text-xs md:text-sm move-r"
@@ -64,7 +64,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <section
-      class="grid-cols-12 col-start-1 col-end-11  md:grid md:gap-16 landing horizontal-line-2"
+      class="grid-cols-12 col-start-1 col-end-11  md:col-start-1 md:col-end-13 md:grid md:gap-16 landing horizontal-line-2"
     >
       <h2
         class="col-start-1 col-end-6 text-2xl font-bold lg:text-4xl md:text-3xl"
@@ -72,7 +72,7 @@
         <!-- A Front-End Web Developer based in Accra, Ghana. -->
         A Front-End Web Developer operating from my base in Accra, Ghana.
       </h2>
-      <div class="col-start-6 col-end-11 mt-10 md:mt-0">
+      <div class="col-start-6 col-end-11 mt-10 md:col-end-12 md:mt-0">
         <p class="">
           I love to translate designs into clean, elegant, functional and
           responsive User Interfaces.
@@ -183,12 +183,7 @@ export default {
     display: block;
   }
   @include respond(tab-port) {
-    font-size: 4.25rem;
-    letter-spacing: 0.2rem;
-    display: block;
-  }
-  @include respond(tab-port) {
-    font-size: 3.4rem;
+    font-size: 4.27rem;
     letter-spacing: 0.2rem;
     display: block;
   }
