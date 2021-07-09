@@ -38,10 +38,10 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="grid grid-flow-row grid-cols-12 my-10  md:col-start-1 md:col-end-13 horizontal-line-1"
+      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  lg:col-start-4 lg:col-end-12 md:col-start-2 md:col-end-13 horizontal-line-1"
     >
       <a
-        class="col-span-6 text-xs md:text-sm move-r"
+        class="col-span-6 text-xs lg:col-span-8 md:col-span-7 md:text-sm move-r"
         href="https://www.linkedin.com/in/francis-badasu"
         target="_blank"
         rel="noopener noreferrer"
