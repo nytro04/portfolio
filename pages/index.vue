@@ -6,7 +6,7 @@
     </div>
 
     <div class="mt-32 cool">
-      <Recent2 />
+      <RecentProjects />
     </div>
 
     <div class="mt-32">
@@ -19,17 +19,12 @@
 </template>
 
 <script>
-import { gsap } from 'gsap/dist/gsap'
-// import { ScrollToPlugin } from 'gsap/dist/ScrollToPlugin'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
-
 export default {
   components: {
     Landing: () => import('~/components/Landing.vue'),
     Stack: () => import('~/components/Stack.vue'),
-    // RecentProjects: () => import('~/components/RecentProjects.vue'),
-    Recent2: () => import('~/components/Recent2.vue'),
+    RecentProjects: () => import('~/components/RecentProjects.vue'),
+
     Together: () => import('~/components/Together.vue'),
     Footer: () => import('~/components/Footer.vue'),
   },
@@ -39,26 +34,9 @@ export default {
     }
   },
 
-  mounted() {
-    // this.scrollUp()
-  },
+  mounted() {},
 
-  methods: {
-    scrollUp() {
-      gsap
-        .timeline({
-          scrollTrigger: {
-            trigger: '.trigger',
-            start: 'top center',
-            end: 'bottom top',
-            scrub: true,
-            pin: true,
-          },
-        })
-        .to('.trigger', { scale: 0 })
-        .from('.cool', { x: innerWidth * -1 })
-    },
-  },
+  methods: {},
 }
 </script>
 
