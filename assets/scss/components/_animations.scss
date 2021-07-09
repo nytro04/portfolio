@@ -1,3 +1,13 @@
+@import './assets/scss/abstracts/mixins';
+
+// @include respond(tab-land) {
+
+// }
+
+// @include respond(tab-port) {
+
+// }
+
 .move-r {
   position: relative;
   cursor: pointer;
@@ -141,6 +151,15 @@
     position: absolute;
     top: -4rem;
     border-left: 0.1px solid #c5c1c1;
+
+    @include respond(tab-land) {
+      height: 41rem;
+      left: 8rem;
+    }
+    @include respond(tab-port) {
+      height: 37.3rem;
+      left: 6.7rem;
+    }
   }
 }
 .vertical-line-3 {
@@ -156,6 +175,13 @@
     position: absolute;
     top: -4rem;
     border-left: 0.1px solid #c5c1c1;
+
+    @include respond(tab-land) {
+      left: 26.2rem;
+    }
+    @include respond(tab-port) {
+      left: 20rem;
+    }
   }
 }
 .vertical-line-4 {
@@ -172,6 +198,15 @@
     position: absolute;
     top: -4rem;
     border-left: 0.1px solid #c5c1c1;
+
+    @include respond(tab-land) {
+      left: 40.2rem;
+      height: 39.9rem;
+    }
+    @include respond(tab-port) {
+      left: 29.16rem;
+      height: 37.3rem;
+    }
   }
 }
 
@@ -186,6 +221,13 @@
     position: absolute;
     top: -4rem;
     border-left: 0.1px solid #c5c1c1;
+
+    @include respond(tab-land) {
+      left: 41.1rem;
+    }
+    @include respond(tab-port) {
+      left: 30rem;
+    }
   }
 }
 
@@ -200,6 +242,12 @@
     position: absolute;
     top: -4rem;
     border-left: 0.1px solid #c5c1c1;
+    @include respond(tab-land) {
+      display: none;
+    }
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 }
 .vertical-line-7 {
@@ -213,6 +261,13 @@
     position: absolute;
     top: -4rem;
     border-left: 0.1px solid #c5c1c1;
+
+    @include respond(tab-land) {
+      display: none;
+    }
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 }
 
@@ -229,6 +284,13 @@
     position: absolute;
     bottom: 1.2rem;
     border-bottom: 0.1px solid #c5c1c1;
+
+    @include respond(tab-land) {
+      display: none;
+    }
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 }
 .horizontal-line-2 {

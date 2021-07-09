@@ -38,10 +38,10 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  lg:col-start-4 lg:col-end-12 md:col-start-2 md:col-end-13 horizontal-line-1"
+      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  md:col-start-2 md:col-end-13 horizontal-line-1"
     >
       <a
-        class="col-span-6 text-xs lg:col-span-8 md:col-span-7 md:text-sm move-r"
+        class="col-span-6 text-xs  lg:col-span-8 md:col-span-7 md:text-sm move-r footer-link"
         href="https://www.linkedin.com/in/francis-badasu"
         target="_blank"
         rel="noopener noreferrer"
@@ -49,7 +49,7 @@
         https://www.linkedin.com/in/francis-badasu
       </a>
       <a
-        class="col-span-5 col-start-9 ml-3 text-xs md:text-sm move-r"
+        class="col-span-7 col-start-9 text-xs md:text-sm move-r footer-link-2"
         href="https://github.com/nytro04"
         target="_blank"
         rel="noopener noreferrer"
@@ -154,6 +154,23 @@ export default {
 
 .avai {
   padding-right: 1rem;
+}
+
+.footer-link {
+  @include respond(tab-land) {
+    margin-left: 3rem;
+  }
+  @include respond(tab-port) {
+    margin-left: 0;
+  }
+}
+
+.footer-link-2 {
+  margin-left: 0.75rem;
+
+  @include respond(tab-land) {
+    margin-left: -0.7rem;
+  }
 }
 
 /* .line-bottom {
