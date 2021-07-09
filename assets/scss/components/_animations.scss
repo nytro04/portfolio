@@ -122,6 +122,7 @@
     content: '';
     animation-name: vertical-move;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     height: 180vh;
     // left: 7px;
     position: absolute;
@@ -134,6 +135,7 @@
     content: '';
     animation-name: vertical-move-short;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     height: 42rem;
     left: 9.2rem;
     position: absolute;
@@ -146,6 +148,7 @@
     content: '';
     animation-name: vertical-move-short;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     height: 42rem;
 
     // height: 81.35vh;
@@ -160,6 +163,7 @@
     content: '';
     animation-name: vertical-move-short;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
 
     height: 42rem;
 
@@ -176,6 +180,7 @@
     content: '';
     animation-name: vertical-move;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     height: 180vh;
     left: 52.9rem;
     position: absolute;
@@ -189,6 +194,7 @@
     content: '';
     animation-name: vertical-move;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     height: 180vh;
     left: 70.3rem;
     position: absolute;
@@ -201,6 +207,7 @@
     content: '';
     animation-name: vertical-move;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     height: 180vh;
     left: 74.98rem;
     position: absolute;
@@ -215,6 +222,7 @@
     content: '';
     animation-name: hori-move;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     // height: 180vh;
     width: 51.3rem;
     left: 0;
@@ -227,8 +235,9 @@
   position: relative;
   &::after {
     content: '';
-    animation-name: hori-move;
+    animation-name: hori-move-2;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     // animation: hori-move 4s infinite;
     // height: 180vh;
     width: 70.3rem;
@@ -245,6 +254,7 @@
     content: '';
     animation-name: hori-move-short;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     // animation: hori-move 4s infinite;
     // height: 180vh;
     width: 9.2rem;
@@ -261,6 +271,7 @@
     content: '';
     animation-name: hori-move-4;
     animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     // animation: hori-move 4s infinite;
     // height: 180vh;
     width: 17.4rem;
@@ -318,6 +329,15 @@
     width: 9.2rem;
   }
 }
+@keyframes hori-move-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70.3rem;
+  }
+}
+
 @keyframes hori-move-4 {
   from {
     width: 0;
