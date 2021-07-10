@@ -1,7 +1,7 @@
 <template>
   <div class="relative grid grid-cols-1 gap-4 overflow-hidden md:grid-cols-12">
     <header class="col-start-1 col-end-13 mt-5 vertical-line">
-      <h1 class="header-text">FRANCIS BADASU</h1>
+      <h1 class="header-text">FRANCIS BADASU.</h1>
       <HeaderImgSvg class="hidden xl:block" />
     </header>
     <div class="vertical-line-2"></div>
