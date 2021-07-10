@@ -144,7 +144,7 @@ export default {
   padding-left: 3.37rem;
 
   @include respond(phone) {
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-left: 1.3rem;
     padding-right: 0.4rem;
   }

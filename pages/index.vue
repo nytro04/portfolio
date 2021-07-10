@@ -1,15 +1,15 @@
 <template>
   <div class="">
     <Landing />
-    <div class="mt-32">
+    <div class="mt-20 md:mt-32">
       <Stack />
     </div>
 
-    <div class="mt-32 cool">
+    <div class="mt-20 md:mt-32">
       <RecentProjects />
     </div>
 
-    <div class="mt-32">
+    <div class="mt-20 md:mt-32">
       <Together />
     </div>
     <div class="">

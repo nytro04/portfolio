@@ -1,22 +1,24 @@
 <template>
   <div class="recent">
-    <h2 class="mb-20 text-5xl font-bold md:text-6xl lg:text-7xl">
+    <h2 class="mb-20 ml-8 text-5xl font-bold md:text-6xl lg:text-7xl md:ml-0">
       Recent <br />
       Projects.
     </h2>
 
     <div
-      class="grid grid-cols-12 img-container"
+      class="grid grid-cols-1 grid-rows-2  md:grid-rows-1 md:grid-cols-12 img-container"
       v-for="(project, index) in projects"
       :key="index"
     >
       <img
-        class="col-start-1 col-end-6 pb-10 md:pb-0"
+        class="col-start-2 col-end-12 row-start-1 pb-10  md:col-start-1 md:col-end-6 md:pb-0"
         :class="tilt(index)"
         :src="require(`~/assets/img/${project.imgUrl}`)"
         :alt="project.name"
       />
-      <article class="col-start-8 col-end-13 bg-black">
+      <article
+        class="col-start-2 col-end-12 row-start-2 row-end-3 -mt-20 bg-black  md:col-start-8 md:col-end-13 mb:-mt-0"
+      >
         <h3 class="pb-5 text-xl font-semibold uppercase md:text-2xl">
           {{ project.name }}
         </h3>
