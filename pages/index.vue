@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <Landing />
-    <div class="mt-20 md:mt-32">
+    <div class="mt-20 overflow-x-hidden md:mt-32">
       <Stack />
     </div>
 
@@ -9,16 +9,17 @@
       <RecentProjects />
     </div>
 
-    <div class="mt-10 mb-10 md:mt-32">
+    <div class="mt-10 mb-10 overflow-x-hidden md:mt-32">
       <Together />
     </div>
-    <div class="pb-20">
+    <div class="pb-20 overflow-x-hidden">
       <Footer />
     </div>
   </div>
 </template>
 
 <script>
+// import { checkScroll } from '~/assets/js/findScroll'
 export default {
   components: {
     Landing: () => import('~/components/Landing.vue'),
@@ -34,7 +35,9 @@ export default {
     }
   },
 
-  mounted() {},
+  mounted() {
+    // checkScroll()
+  },
 
   methods: {},
 }
