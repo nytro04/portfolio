@@ -1,25 +1,5 @@
 <template>
   <div class="relative grid grid-cols-1 gap-4 overflow-hidden md:grid-cols-12">
-    <!-- <vue-particles
-      id="particles-js"
-      color="#dedede"
-      :particle-opacity="0.5"
-      :particles-number="80"
-      shape-type="circle"
-      :particle-size="4"
-      lines-color="#fff"
-      :lines-width="1"
-      :line-linked="true"
-      :line-opacity="0.4"
-      :lines-distance="150"
-      :move-speed="6"
-      :hover-effect="true"
-      hover-mode="repulse"
-      :click-effect="true"
-      click-mode="push"
-    >
-    </vue-particles> -->
-
     <header class="col-start-1 col-end-13 mt-5 vertical-line">
       <h1 class="header-text">FRANCIS BADASU</h1>
       <HeaderImgSvg class="hidden xl:block" />
@@ -38,7 +18,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="grid grid-flow-row grid-cols-12 col-start-4 col-end-12 my-10  md:col-start-2 md:col-end-13 horizontal-line-1"
+      class="block grid-flow-col grid-cols-1 col-start-2 col-end-12 my-5  md:my-10 md:grid md:grid-cols-12 md:col-start-2 md:col-end-13 horizontal-line-1"
     >
       <a
         class="col-span-6 text-xs  lg:col-span-8 md:col-span-7 md:text-sm move-r footer-link"
@@ -64,21 +44,23 @@
     <!-- <div class="line-bottom"></div> -->
 
     <section
-      class="grid-cols-12 col-start-1 col-end-11  md:col-start-1 md:col-end-13 md:grid md:gap-16 landing horizontal-line-2"
+      class="relative grid-cols-12 col-start-1 col-end-13  md:col-start-1 md:col-end-13 md:grid md:gap-16 landing horizontal-line-2"
     >
       <h2
-        class="col-start-1 col-end-6 text-2xl font-bold lg:text-4xl md:text-3xl"
+        class="col-start-1 col-end-13 text-2xl font-bold  md:col-start-1 md:col-end-6 lg:text-4xl md:text-3xl info"
       >
         <!-- A Front-End Web Developer based in Accra, Ghana. -->
         A Front-End Web Developer operating from my base in Accra, Ghana.
       </h2>
-      <div class="col-start-6 col-end-11 mt-10 md:col-end-12 md:mt-0">
-        <p class="">
+      <div
+        class="col-start-6 col-end-11 mt-10 mb-20  details md:col-end-12 md:mt-0 content md:mb-0"
+      >
+        <p class="mb-5 md:mb-0">
           I love to translate designs into clean, elegant, functional and
           responsive User Interfaces.
         </p>
 
-        <p class="mt-6">
+        <p class="">
           I have industry experience building websites and web applications
           using HTML, CSS, SCSS, JavaScript, Vue/Vuex, Nuxt, React/Redux, NodeJs
           and Go and quite recently TypeScript.
@@ -87,7 +69,7 @@
     </section>
 
     <section
-      class="grid-cols-12 col-start-1 col-end-12 gap-4 mt-16  md:grid landing horizontal-line-3"
+      class="relative grid-cols-12 col-start-1 col-end-12 row-start-4 gap-4  md:row-start-5 md:mt-16 md:grid landing horizontal-line-3"
     >
       <img
         class="col-start-2 col-end-10 mx-auto md:w-full md:mx-0 pic-left"
@@ -148,12 +130,31 @@ export default {
   }
 }
 
+.info {
+  @include respond(phone) {
+    position: absolute;
+    /* bottom: 40rem; */
+    top: -25.4rem;
+    width: 80%;
+    z-index: 5;
+  }
+}
+
 .pic-left {
   padding-left: 3.37rem;
+
+  @include respond(phone) {
+    padding-top: 5rem;
+    padding-left: 1.3rem;
+    padding-right: 0.4rem;
+  }
 }
 
 .avai {
   padding-right: 1rem;
+  @include respond(phone) {
+    display: none;
+  }
 }
 
 .footer-link {
@@ -165,11 +166,22 @@ export default {
   }
 }
 
+footer {
+  @include respond(phone) {
+    a {
+      padding: 0 1rem;
+    }
+  }
+}
+
 .footer-link-2 {
   margin-left: 0.75rem;
 
   @include respond(tab-land) {
     margin-left: -0.7rem;
+  }
+  @include respond(phone) {
+    margin-left: 0;
   }
 }
 
