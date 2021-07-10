@@ -3,21 +3,21 @@
     class="items-center pb-10 mx-auto text-sm text-center  md:text-base md:justify-between md:flex footer"
   >
     <a
-      class="text-sm md:text-base"
-      href="https://github.com/nytro04"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      https://github.com/nytro04
-    </a>
-
-    <a
       class="py-2 text-sm md:text-base"
       href="https://www.linkedin.com/in/francis-badasu"
       target="_blank"
       rel="noopener noreferrer"
     >
       https://www.linkedin.com/in/francis-badasu
+    </a>
+
+    <a
+      class="text-sm md:text-base"
+      href="https://github.com/nytro04"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      https://github.com/nytro04
     </a>
 
     <a

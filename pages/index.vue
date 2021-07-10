@@ -9,10 +9,10 @@
       <RecentProjects />
     </div>
 
-    <div class="mt-20 md:mt-32">
+    <div class="mt-10 mb-10 md:mt-32">
       <Together />
     </div>
-    <div class="">
+    <div class="pb-20">
       <Footer />
     </div>
   </div>
