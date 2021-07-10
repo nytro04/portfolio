@@ -18,7 +18,7 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="block grid-flow-col grid-cols-1 col-start-2 col-end-12 my-5  md:my-10 md:grid md:grid-cols-12 md:col-start-2 md:col-end-13 horizontal-line-1"
+      class="block grid-flow-col grid-cols-1 col-start-2 col-end-12 my-5  md:my-10 md:grid md:grid-cols-12 lg:col-start-4 md:col-end-13 horizontal-line-1"
     >
       <a
         class="col-span-6 text-xs  lg:col-span-8 md:col-span-7 md:text-sm move-r footer-link"

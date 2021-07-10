@@ -17,7 +17,7 @@
         :alt="project.name"
       />
       <article
-        class="col-start-2 col-end-12 row-start-2 row-end-3 -mt-20 bg-black  md:col-start-8 md:col-end-13 mb:-mt-0"
+        class="col-start-2 col-end-12 bg-black  md:col-start-8 md:col-end-13 content"
       >
         <h3 class="pb-5 text-xl font-semibold uppercase md:text-2xl">
           {{ project.name }}
@@ -66,7 +66,8 @@ export default {
                 designers`,
           year: '2021',
           stack: 'NuxtJS, VueJS/VueXJS, Tailwind CSS, SCSS',
-          url: 'https://uxkafui.co',
+          url: 'https://hope-adoli.netlify.app',
+          // url: 'https://uxkafui.co',
           imgUrl: 'hope-adoli.png',
         },
         {
@@ -125,5 +126,13 @@ export default {
   /* @include respond(phone) {
     @apply px-8 overflow-hidden;
   } */
+}
+
+.content {
+  @include respond(phone) {
+    margin-top: -5rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 }
 </style>

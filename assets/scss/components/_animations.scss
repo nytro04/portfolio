@@ -310,7 +310,7 @@
     width: 51.3rem;
     left: 0;
     position: absolute;
-    bottom: 1.2rem;
+    bottom: 0.2rem;
     border-bottom: 0.1px solid #c5c1c1;
 
     @include respond(tab-land) {
@@ -416,10 +416,10 @@
 
 @keyframes hori-move {
   from {
-    width: 0%;
+    width: 0;
   }
   to {
-    width: 100%;
+    width: 51.3rem;
   }
 }
 @keyframes hori-move-short {
@@ -479,7 +479,7 @@
   // display: flex;
   // justify-content: center;
   // align-items: center;
-  height: 100vh;
+  height: 90vh;
 
   img {
     // width: 800px;

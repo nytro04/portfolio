@@ -9,10 +9,10 @@
       <RecentProjects />
     </div>
 
-    <div class="mt-10 mb-10 overflow-x-hidden md:mt-32">
+    <div class="mb-10 overflow-x-hidden md:mt-10">
       <Together />
     </div>
-    <div class="pb-20 overflow-x-hidden">
+    <div class="pb-10 overflow-x-hidden">
       <Footer />
     </div>
   </div>
