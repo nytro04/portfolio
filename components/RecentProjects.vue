@@ -73,7 +73,8 @@ export default {
         {
           name: 'Wacommunicate desktop',
           company: 'Walulel Ghana',
-          description: `WaCommunicate is Walulel’s Geosocial Communication Platform. It’s a social network designed for the neighbourhood community.`,
+          description: `WaCommunicate is Walulel’s Geosocial Communication Platform.`,
+          // description: `WaCommunicate is Walulel’s Geosocial Communication Platform. It’s a social network designed for the neighbourhood community.`,
           year: '2021',
           stack: 'NuxtJS, VueJS/VueXJS, Tailwind CSS, SCSS',
           url: 'https://wa-communicate.com',

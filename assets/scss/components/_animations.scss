@@ -479,7 +479,7 @@
   // display: flex;
   // justify-content: center;
   // align-items: center;
-  height: 90vh;
+  height: 100vh;
 
   img {
     // width: 800px;
@@ -491,7 +491,7 @@
 
   @include respond(phone) {
     margin: 0 3rem;
-    top: 5rem;
+    top: 4rem;
   }
 
   // &:nth-child(1) img {
