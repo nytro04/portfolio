@@ -1,11 +1,25 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'francisbadasu',
+    title: 'Francis Badasu - Front-End Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        name: 'description',
+        content:
+          'A Front-End Web Developer with  industry experience building websites and web applications - JavaScript, TypeScript, Vue/Vuex, Nuxt, React/Redux, NodeJs and Go.',
+      },
+      {
+        name: 'title',
+        content: 'Francis Badasu - Front-End Web Developer',
+      },
+      {
+        name: 'keywords',
+        content:
+          'Francis Badasu,  Front End Developer, Front-End Development, Front End Development, Front-End Web Developer, Front End Web Developer, front end Web Developer,',
+      },
+      { name: 'robots', content: 'index,follow' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
 
