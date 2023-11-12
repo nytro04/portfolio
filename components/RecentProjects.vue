@@ -6,18 +6,32 @@
     </h2>
 
     <div
-      class="grid grid-cols-1 grid-rows-2  md:grid-rows-1 md:grid-cols-12 img-container"
+      class="
+        grid grid-cols-1 grid-rows-2
+        md:grid-rows-1 md:grid-cols-12
+        img-container
+      "
       v-for="(project, index) in projects"
       :key="index"
     >
       <img
-        class="col-start-2 col-end-12 row-start-1 pb-10  md:col-start-1 md:col-end-6 md:pb-0"
+        class="
+          col-start-2 col-end-12
+          row-start-1
+          pb-10
+          md:col-start-1 md:col-end-6 md:pb-0
+        "
         :class="tilt(index)"
         :src="require(`~/assets/img/${project.imgUrl}`)"
         :alt="project.name"
       />
       <article
-        class="col-start-2 col-end-12 bg-black  md:col-start-8 md:col-end-13 content"
+        class="
+          col-start-2 col-end-12
+          bg-black
+          md:col-start-8 md:col-end-13
+          content
+        "
       >
         <h3 class="pb-5 text-xl font-semibold uppercase md:text-2xl">
           {{ project.name }}
@@ -97,6 +111,24 @@ export default {
           stack: 'NuxtJS, VueJS/VueXJS, Tachyons CSS, SCSS',
           url: 'https://dashboard.appruve.co',
           imgUrl: 'appruve-dashboard.png',
+        },
+        {
+          name: 'Bottleport',
+          company: 'GrapeAlliance',
+          description: `Ecommerce web application for a wines`,
+          year: '2021-2023',
+          stack: 'Vue3(Setup), Pinia, Typescript TailwindCSS',
+          url: 'https://app.bottleport.io',
+          imgUrl: 'bottleport.png',
+        },
+        {
+          name: 'Mizormor',
+          company: 'Mizormor',
+          description: `Website for a Travel and Tour app`,
+          year: '2022-2023',
+          stack: 'NuxtJs, Javascript, TailwindCSS',
+          url: 'https://www.mizormor.com/',
+          imgUrl: 'mizormor.png',
         },
       ],
     }
