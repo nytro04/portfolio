@@ -20,6 +20,10 @@
           <span class="mt-4 text-xs font-semibold md:text-lg">JavaScript</span>
         </li>
         <li class="flex flex-col">
+          <TypeScriptSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">Typescript</span>
+        </li>
+        <li class="flex flex-col">
           <VueSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
           <span class="mt-4 text-xs font-semibold md:text-lg">VueJs</span>
         </li>
@@ -48,10 +52,6 @@
           <span class="mt-4 text-xs font-semibold md:text-lg">Go</span>
         </li>
         <li class="flex flex-col">
-          <TypeScriptSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
-          <span class="mt-4 text-xs font-semibold md:text-lg">TypeScript</span>
-        </li>
-        <li class="flex flex-col">
           <GitSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
           <span class="mt-4 text-xs font-semibold md:text-lg">Git</span>
         </li>
@@ -71,6 +71,10 @@
         <li class="flex flex-col">
           <JSSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
           <span class="mt-4 text-xs font-semibold md:text-lg">JavaScript</span>
+        </li>
+        <li class="flex flex-col">
+          <TypeScriptSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+          <span class="mt-4 text-xs font-semibold md:text-lg">Typescript</span>
         </li>
         <li class="flex flex-col">
           <VueSvg class="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20" />

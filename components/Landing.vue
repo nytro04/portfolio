@@ -18,10 +18,26 @@
     <!-- <div class="line-bottom"></div> -->
 
     <footer
-      class="block grid-flow-col grid-cols-1 col-start-2 col-end-12 my-5  md:my-10 md:grid md:grid-cols-12 lg:col-start-4 md:col-end-13 horizontal-line-1"
+      class="
+        block
+        grid-flow-col grid-cols-1
+        col-start-2 col-end-12
+        my-5
+        md:my-10 md:grid md:grid-cols-12
+        lg:col-start-4
+        md:col-end-13
+        horizontal-line-1
+      "
     >
       <a
-        class="col-span-6 text-xs  lg:col-span-8 md:col-span-7 md:text-sm move-r footer-link"
+        class="
+          col-span-6
+          text-xs
+          lg:col-span-8
+          md:col-span-7 md:text-sm
+          move-r
+          footer-link
+        "
         href="https://www.linkedin.com/in/francis-badasu"
         target="_blank"
         rel="noopener noreferrer"
@@ -44,16 +60,39 @@
     <!-- <div class="line-bottom"></div> -->
 
     <section
-      class="relative grid-cols-12 col-start-1 col-end-13  md:col-start-1 md:col-end-13 md:grid md:gap-16 landing horizontal-line-2"
+      class="
+        relative
+        grid-cols-12
+        col-start-1 col-end-13
+        md:col-start-1 md:col-end-13 md:grid md:gap-16
+        landing
+        horizontal-line-2
+      "
     >
       <h2
-        class="col-start-1 col-end-13 text-2xl font-bold  md:col-start-1 md:col-end-6 lg:text-4xl md:text-3xl info"
+        class="
+          col-start-1 col-end-13
+          text-2xl
+          font-bold
+          md:col-start-1 md:col-end-6
+          lg:text-4xl
+          md:text-3xl
+          info
+        "
       >
         <!-- A Front-End Web Developer based in Accra, Ghana. -->
         A Front-End Web Developer operating from my base in Accra, Ghana.
       </h2>
       <div
-        class="col-start-6 col-end-11 mt-10 mb-20  details md:col-end-12 md:mt-0 content md:mb-0"
+        class="
+          col-start-6 col-end-11
+          mt-10
+          mb-20
+          details
+          md:col-end-12 md:mt-0
+          content
+          md:mb-0
+        "
       >
         <p class="mb-5 md:mb-0">
           I love to translate designs into clean, elegant, functional and
@@ -62,14 +101,23 @@
 
         <p class="">
           I have industry experience building websites and web applications
-          using HTML, CSS, SCSS, JavaScript, Vue/Vuex, Nuxt, React/Redux, NodeJs
-          and Go and quite recently TypeScript.
+          using HTML, CSS, SCSS, JavaScript, TypeScript, Vue/Vuex, Nuxt,
+          React/Redux, NodeJs and Go and quite recently NestJs.
         </p>
       </div>
     </section>
 
     <section
-      class="relative grid-cols-12 col-start-1 col-end-12 row-start-4 gap-4  md:row-start-5 md:mt-16 md:grid landing horizontal-line-3"
+      class="
+        relative
+        grid-cols-12
+        col-start-1 col-end-12
+        row-start-4
+        gap-4
+        md:row-start-5 md:mt-16 md:grid
+        landing
+        horizontal-line-3
+      "
     >
       <img
         class="col-start-2 col-end-10 mx-auto md:w-full md:mx-0 pic-left"
@@ -77,7 +125,14 @@
         alt="Francis Badasu"
       />
       <div
-        class="col-start-10 col-end-13 mx-auto mt-10  md:mt-20 avai horizontal-line-4"
+        class="
+          col-start-10 col-end-13
+          mx-auto
+          mt-10
+          md:mt-20
+          avai
+          horizontal-line-4
+        "
       >
         <p class="mb-5">Available for new projects.</p>
         <a

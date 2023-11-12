@@ -117,7 +117,7 @@ export default {
           company: 'GrapeAlliance',
           description: `Ecommerce web application for a wines`,
           year: '2021-2023',
-          stack: 'Vue3(Setup), Pinia, Typescript TailwindCSS',
+          stack: 'Vue3(Setup), Pinia, Typescript, TailwindCSS',
           url: 'https://app.bottleport.io',
           imgUrl: 'bottleport.png',
         },
